@@ -1,0 +1,31 @@
+{
+  "name": "v-model-debounce",
+  "version": "1.0.0",
+  "description": "Package with a custom directive to use a debounced v-model behaviour",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajomuch92/v-model-debounce.git"
+  },
+  "keywords": [
+    "v-model",
+    "debounce",
+    "vuejs",
+    "vuejs",
+    "vue"
+  ],
+  "author": "Aarón Montes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajomuch92/v-model-debounce/issues"
+  },
+  "homepage": "https://github.com/ajomuch92/v-model-debounce#readme",
+  "devDependencies": {
+    "typescript": "^5.0.3",
+    "vue": "^2.6.14"
+  }
+}
