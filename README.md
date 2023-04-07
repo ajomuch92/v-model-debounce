@@ -46,6 +46,8 @@ export default {
   <my-component v-model="myMainVariable" v-model-debounce.800="myDebouncedVariable" />
 ```
 
+See a full example [here](https://github.com/ajomuch92/v-model-debounce/tree/main/example).
+
 #### Modifiers
 
 | Modifier | Type     | Description                       |
