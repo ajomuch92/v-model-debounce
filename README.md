@@ -83,4 +83,4 @@ export default {
 
 ## Contributing
 
-Contributions are always welcome!. Create a PR [here](https://github.com/ajomuch92/v-model-debounce/pulls) or an issue [here](https://github.com/ajomuch92/v-model-debounce/issues).
+Contributions are always welcome. Create a PR [here](https://github.com/ajomuch92/v-model-debounce/pulls) or an issue [here](https://github.com/ajomuch92/v-model-debounce/issues).
