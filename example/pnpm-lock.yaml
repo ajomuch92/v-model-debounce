@@ -5,8 +5,8 @@ dependencies:
     specifier: ^3.8.3
     version: 3.8.3
   v-model-debounce:
-    specifier: 0.0.2-beta
-    version: 0.0.2-beta
+    specifier: 1.0.0
+    version: 1.0.0
   vue:
     specifier: ^2.6.14
     version: 2.6.14
@@ -6379,8 +6379,8 @@ packages:
     hasBin: true
     dev: true
 
-  /v-model-debounce@0.0.2-beta:
-    resolution: {integrity: sha512-5mxcGJrabSqOoWslE3ZdkoBqX9bkb1kRqh699J8IkphIwyD9M64U0TETRCq6rel90uEcpe8MviP7JJFoFvdL0g==}
+  /v-model-debounce@1.0.0:
+    resolution: {integrity: sha512-8AdCd+ujqmPKQiOaQyT2bOsph1IRMndFxhlmQlbeW1LGrCgMRelv/fzjjmj1v4smBpFR/nnRUePFbq2yXDGdmg==}
     dev: false
 
   /v8-compile-cache@2.3.0:

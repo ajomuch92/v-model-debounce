@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "v-model-debounce": "0.0.2-beta",
+    "v-model-debounce": "1.0.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
