@@ -1,11 +1,10 @@
 {
   "name": "v-model-debounce",
-  "version": "1.0.0",
+  "version": "0.0.1-beta",
   "description": "Package with a custom directive to use a debounced v-model behaviour",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
