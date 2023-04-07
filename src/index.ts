@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
-export { default as VModelDebounce } from './directive';
 import directive from './directive';
+export { default as VModelDebounceDirective } from './directive';
 
 export default {
     install() {
