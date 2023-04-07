@@ -3,6 +3,11 @@ import { VNode } from 'vue/types/vnode';
 
 let listener: (ev: Event) => void;
 
+interface EmitEvent {
+    event: Event;
+    value: number | string;
+}
+
 const directive: DirectiveOptions | DirectiveFunction =  {
     inserted: (el: HTMLElement, def: DirectiveBinding, vnode: VNode) => {
         const { modifiers } = def;
@@ -28,7 +33,7 @@ const directive: DirectiveOptions | DirectiveFunction =  {
                     }
                     if (vnode.context && def.expression) {
                         vnode.context.$data[def.expression] = val;
-                        vnode.context.$emit('on-debounce', { event, value: val });
+                        vnode.context.$emit('on-debounce', { event, value: val } as EmitEvent);
                     }
                     debounce = undefined;
                 }, ms);
