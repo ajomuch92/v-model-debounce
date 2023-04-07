@@ -1,8 +1,9 @@
 {
   "name": "v-model-debounce",
-  "version": "0.0.1-beta",
+  "version": "0.0.2ß-beta",
   "description": "Package with a custom directive to use a debounced v-model behaviour",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
